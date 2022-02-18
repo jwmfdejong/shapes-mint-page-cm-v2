@@ -24,7 +24,7 @@ import { usePoller } from "./hooks/usePoller";
 //@ts-ignore
 import confetti from "canvas-confetti";
 
-const IMAGE_LINK = "/animation.gif";
+const IMAGE_LINK = "/animation.png";
 const LOGO_LINK = "/logo.png";
 
 function throwConfetti(): void {

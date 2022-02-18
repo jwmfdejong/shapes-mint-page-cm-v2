@@ -1,3 +1,5 @@
 /.env
 /node_modules
 /yarn.lock
+# Local Netlify folder
+.netlify
