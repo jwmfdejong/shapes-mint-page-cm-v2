@@ -199,12 +199,18 @@ const Home = (props: HomeProps) => {
         <Container maxWidth="xs" style={{ position: "relative" }}>
           <StyledPaper>
             {" "}
-            <img
-              src={LOGO_LINK}
-              alt=""
-              width="100%"
-              style={{ borderRadius: "5px" }}
-            />
+            <h1
+            style={{
+              textAlign: "center",
+              lineHeight: 1.5,
+              fontWeight: 300,
+              marginBottom: "25px",
+              fontSize: "1.9rem"
+            }}
+          >
+            A Henkies collection.
+          </h1>
+            
           </StyledPaper>
           <StyledPaper>
             <div>
